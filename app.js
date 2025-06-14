@@ -413,7 +413,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     // Current language state
-    let currentLanguage = localStorage.getItem('language') || 'pl';
+    let currentLanguage = localStorage.getItem('language') || 'en';
 
     // Translation function
     function t(key) {
